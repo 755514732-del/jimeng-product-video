@@ -1,0 +1,13 @@
+interface:
+  display_name: 即梦产品广告视频
+  short_description: 把产品参考图和卖点转成可直接粘贴到即梦的英文广告视频分镜提示词
+  default_prompt: 用 $jimeng-product-video 根据我的产品图生成一版英文广告视频提示词。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
